@@ -2,7 +2,8 @@
 created: 2023-02-03T00:00+03:00
 tags:
   - blog
-  - ends
+  - work-tool
+  - active
 sr-due: 2025-09-18
 sr-interval: 70
 sr-ease: 188
@@ -10,42 +11,36 @@ sr-ease: 188
 
 # GNU Readline
 
-> The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in. Both Emacs and vi editing modes are available. The Readline library includes additional functions to maintain a list of previously-entered command lines, to recall and perhaps reedit those lines, and perform csh-like history expansion on previous commands.
->
-> The history facilities are also placed into a separate library, the History library, as part of the build process. The History library may be used without Readline in applications which desire its capabilities.\
-> — <cite>[The GNU Readline Library](https://tiswww.case.edu/php/chet/readline/rltop.html)</cite>
+Library used by bash, python, ipython, etc. to provide better command line editing with keyboard shortcuts, history, etc.
 
 Documentation available [here](https://tiswww.case.edu/php/chet/readline/readline.html).
 
 Basically I use `vi` mode in readline, including python and ipython interactive shell (`~/.inputrc`, `~/.ipython/profile_default/ipython_config.py`).
 
-## Tmux, nvim cmdline
-
-- `C-w`:<wbr class="f"> Delete the word before the cursor. 
-- `C-h`:<wbr class="f"> Delete the character before the cursor. 
-- `C-c`:<wbr class="f"> Cancel the command line.
+But sometimes it's useful to use readline specific keyboard shortcuts. Try to open bash interpreter and test shortcuts.
 
 ## Bare essentials
 
-- `C-n`:<wbr class="f"> Scroll up.
-- `C-p`:<wbr class="f"> Scroll down.
 - `C-b`:<wbr class="f"> Move back one character.
 - `C-f`:<wbr class="f"> Move forward one character.
+- `M-b`:<wbr class="f"> Move backward a word (letters + digits).
+- `M-f`:<wbr class="f"> Move forward a word <!--SR:!2025-12-28,2,188-->
+- `C-a C-a` (customized with tmux):<wbr class="f"> Move to the start of the line.
+- `C-e`:<wbr class="f"> Move to the end of the line.
+
+- `C-w`:<wbr class="f"> Delete the word before the cursor. 
+- `M-d`:<wbr class="f"> Delete the word after the cursor.
+- `C-c`:<wbr class="f"> Cancel the command line.
 - `M-\`:<wbr class="f"> Delete spaces and tabs around point.
+
+- `C-p`:<wbr class="f"> Prev item (scroll up).
+- `C-n`:<wbr class="f"> Next item (scroll down).
 - `M-k`:<wbr class="f"> kill to end of sentence (kill-sentence).
 - `DEL or Backspace`:<wbr class="f"> Delete the character to the left of the cursor.
 - `M-Backspace`:<wbr class="f"> Delete the word to the left of the cursor.
 - `C-d`:<wbr class="f"> Delete (kill) the character underneath the cursor.
-- `M-d`:<wbr class="f"> Delete (kill) the word underneath the cursor.
 - `C-_` or `C-x C-u`:<wbr class="f"> Undo the last editing command. You can undo all the way back to an empty line.
-
-## Readline Movement Commands
-
-- `M-f`:<wbr class="f"> Move forward a word, where a word is composed of letters and digits.
-- `M-b`:<wbr class="f"> Move backward a word.
-- `C-a`:<wbr class="f"> Move to the start of the line.
-- `C-e`:<wbr class="f"> Move to the end of the line.
-- `C-l`:<wbr class="f"> Clear the screen, reprinting the current line at the top.
+- `C-l l` (customized with tmux):<wbr class="f"> Clear the screen, reprinting the current line at the top. <!--SR:!2025-12-28,2,188-->
 
 ## Commands for Changing Text
 
@@ -63,14 +58,14 @@ Basically I use `vi` mode in readline, including python and ipython interactive 
 - `M-BCK`:<wbr class="f"> Kill the word behind point.
 - `M-\`:<wbr class="f"> Delete all spaces and tabs around point.
 - `C-w`
-  <br class="f">
+  <span class="f"></span>
   Kill from the cursor to the previous whitespace. This is different from `M-DEL` because the word boundaries differ.
 - `C-k`:<wbr class="f"> Kill the text from the current cursor position to the end of the line.
 - `M-d`
-  <br class="f">
+  <span class="f"></span>
   Kill from the cursor to the end of the current word, or, if between words, to the end of the next word. Word boundaries are the same as those used by `M-f`.
 - `M-DEL`
-  <br class="f">
+  <span class="f"></span>
   Kill from the cursor to the start of the current word, or, if between words, to the start of the previous word. Word boundaries are the same as those used by `M-b`.
 
 Here is how to yank the text back into the line. Yanking means to copy the most-recently-killed text from the kill buffer.
