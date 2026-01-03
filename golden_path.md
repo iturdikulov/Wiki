@@ -26,13 +26,23 @@ You can't learn all very quickly, this is marathon, not a sprint. Strategy:
 
 ### [[projects|Projects]]
 
-- PROJECT: [iturdikulov/chat_oracle: Search and create short videos from your favorite streamer](https://github.com/iturdikulov/chat_oracle)
-    - TODO: init UI
-- PROJECT: [iturdikulov/dev: Debian based Unix environment quickstart](https://github.com/iturdikulov/dev)
-    - TODO: optimize for devcontainer
-- PROJECT: [iturdikulov/nvim: Personal Development Environment layer for NeoVim](https://github.com/iturdikulov/nvim)
+- PROJECT: [**chat_oracle**](https://github.com/iturdikulov/chat_oracle)
+    - TODO: Init UI
+
+- PROJECT: [dev](https://github.com/iturdikulov/dev)
+    - TODO: Optimize for Devcontainer
+
+- PROJECT: [nvim](https://github.com/iturdikulov/nvim)
     - TODO: optimize for "trixie" nvim version (old one)
-- PROJECT: [Телеграм-бот для бронирования столов на вебхуках](https://habr.com/ru/companies/amvera/articles/882878/)
+
+- PROJECT: VUE/flask remote game control app
+    - TODO: micropython keyboard control, init hello world
+    - TODO: simplest possible UI in Vue
+    - TODO: remote script execution
+    - TODO: keyboard/mouse listener
+    - TODO: macro recorder into source code
+    - TODO: pick simplest quest and automate it
+    - TODO: implement some simple algorithm for fun
 
 ### [[my_awesome_software_list|Software]]
 
@@ -44,7 +54,7 @@ You can't learn all very quickly, this is marathon, not a sprint. Strategy:
 ### [[LeetCode|DSA practice]]
 
 - WARN: [Super Easy / Easy Problems](https://leetcode.com/) 
-    - TODO: Solve few problems
+    - TODO: Solve first 3 problems
 - TODO: [Advent of Code 2020](https://adventofcode.com/2020)
 - TODO: [About - Project Euler](https://projecteuler.net/)
 
@@ -57,12 +67,16 @@ You can't learn all very quickly, this is marathon, not a sprint. Strategy:
 - WARN: [Beej's Guide to Learning Computer Science](https://beej.us/guide/bglcs/html/split/)
 - WARN: Книга: *Code: The Hidden Language of Computer Hardware* — для понимания "железа".
 - TODO: [Sorting Algorithms (Toptal)](https://www.toptal.com/developers/sorting-algorithms) — визуализация.
+    - TODO: check first visualization, try to understandit
 - TODO: [[Wengrow-Data_structures_and_algorithms]]
+    - TODO: sync note with new book
 - TODO: [[InterviewCake_Team-Coding_interview_practice]]
+-   - TODO: check first chapter
 
 ### [[programming_foundations|Programming Foundations]]
 
 - WARN: Книга: *Столяров "Азы программирования"* — структурное мышление.
+    - TODO: sync with [[Stolyarov-Azy_programmirovaniya]]
 - TODO: Книга: [[Abelson_and_Sussman-SICP]]
 - TODO: **Lua:** Scripting for Neovim configuration and game logic.
 - TODO: **Bash/Zsh:** Shell scripting, automation, and dotfiles management.
@@ -74,9 +88,10 @@ You can't learn all very quickly, this is marathon, not a sprint. Strategy:
 ### [[mathematics|Mathematics]]
 
 - WARN: Киселёв Алгебра, в 2-х частях
+    - TODO: поиск практически задач
+- TODO: [BetterExplained.com](https://betterexplained.com/) — интуитивное понимание концепций.
 - TODO: [[Math_is_fun_community-Math_is_fun]]
 - TODO: [100 уроков Математики (А. Савватеев)](https://www.youtube.com/playlist?list=PLqBfxn8OBMGrsA_YynaQWqHKhL7kEvL4X)
-- TODO: [BetterExplained.com](https://betterexplained.com/) — интуитивное понимание концепций.
 
 ## 3. AI & ML Engineering
 
@@ -141,13 +156,13 @@ You can't learn all very quickly, this is marathon, not a sprint. Strategy:
 ### Testing & Observability
 
 - TODO: **Testing:** `pytest` (fixtures, markers), `testcontainers` (DB in docker for tests).
-
+- TODO: vitest/jest
 
 ### API & Frameworks
 
 - WARN: **Flask:** Обзорно (Flask Mega Tutorial), чтобы понимать легаси-код.
 - TODO: **FastAPI:** Основной инструмент. Изучить Dependency Injection, Middleware, Background Tasks.
-- TODO: **Pydantic V2:** Валидация данных, `.model_dump()`, сериализация, работа с `Settings` (.env).
+- WARN: **Pydantic V2:** Валидация данных, `.model_dump()`, сериализация, работа с `Settings` (.env).
 - TODO: **Web Protocols:** HTTP/2, WebSockets, основы gRPC (важно для микросервисов).
 - TODO: **WebSockets:** Implement WS services (e.g., Starlette/FastAPI websockets, aiohttp).
 - TODO: [FastAPI Documentation](https://fastapi.tiangolo.com/)
@@ -211,7 +226,8 @@ You can't learn all very quickly, this is marathon, not a sprint. Strategy:
 
 ### Architecture Patterns
 
-- [ByteByteGo - YouTube](https://www.youtube.com/@ByteByteGo/videos)
+- TODO: [ByteByteGo - TODO: YouTube](https://www.youtube.com/@ByteByteGo/videos)
+    - TODO: pick 1 video
 - TODO: **Design Patterns:** *Head First Design Patterns* (Adapter, Factory, Strategy, Singleton).
 - TODO: **Clean Architecture:** 3-layer architecture (Controller -> Service -> Repository).
 - TODO: **SOLID:** Principles, especially Liskov Substitution (examples in Python).
