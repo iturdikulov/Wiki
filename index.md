@@ -3,8 +3,7 @@ date: 2025-07-18T09:17:32+03:00
 created: 2025-01-13T11:36:00+03:00
 tags:
   - blog
-  - outline
-  - work-tool
+  - programming/life
 sr-due: 2025-10-02
 sr-interval: 76
 sr-ease: 230
@@ -13,31 +12,6 @@ title: iturdikulov.com – Notes and reflections by Inom Turdikulov
 # Inom Turdikulov
 
 Welcome hypertext user, this is my website where I share my experiences and thoughts through notes. Maybe you'll find something useful.
-
-## Recent Notes
-
-- [[atuin|Atuin - sync, search and backup shell history]]
-- [[jq|jq, sed for JSON data]]
-- [[obs_auto|Quick Video Recording with OBS Automation]] | [[obs_auto.ru|На русском]]
-- [[Python_decorators|Python decorators]]
-- [[Python_community-Python_tutorial_TOC|The Python Tutorial]]
-- [[oauth|OAuth 2.0]]
-- [[SQL|Structured Query Language (SQL)]]
-- [[CG_Cookie-Blender_basics|An introduction to Blender 4.x]]
-- [[ffmpeg|FFmpeg - A complete, cross-platform solution to record, convert and stream audio and video.]]
-- [[regexp|Regular expression (regex, RegExp, rational expression)]]
-- [[SOLID|SOLID Principles]]
-- [[big_O_notation|Big O notation]]
-- [[functional_programming|Functional programming]]
-- [[OOP|Object-oriented programming (OOP)]]
-- [[Docker|Docker]]
-- [[GTD|Getting Things Done (GTD)]]
-- [[Git|Git Version Control System]]
-- [[AST|Abstract syntax tree]]
-- [[GPG|GNU Privacy Guard (GPG or GnuPG)]]
-- [[SQ3R_method|SQ3R reading method]]
-
-Other notes available in [[recent_notes_archive]].
 
 ## Bio
 
