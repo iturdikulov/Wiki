@@ -11,4 +11,5 @@ An approachable, performant and versatile framework for building web user interf
 
 ## Learning path
 
-- [x] [[vue_introduction.ru|Введение в Vue]]
+- [x] [[vue_introduction.ru]]
+- [x] [[vue_quickstart.ru]]
