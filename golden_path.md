@@ -24,25 +24,12 @@ You can't learn all very quickly, this is marathon, not a sprint. Strategy:
     - TODO: test completion, workflow to generate project
 - TODO: Practice [[GNU_Readline]] keybindings
 
-### [[projects|Projects]]
+### [[projects|Active Projects]]
 
 - PROJECT: [**chat_oracle**](https://github.com/iturdikulov/chat_oracle)
-    - TODO: Init UI
-
+- PROJECT: own LLM-based system to search (nomic embeddings)
 - PROJECT: [dev](https://github.com/iturdikulov/dev)
-    - TODO: Optimize for Devcontainer
-
 - PROJECT: [nvim](https://github.com/iturdikulov/nvim)
-    - TODO: optimize for "trixie" nvim version (old one)
-
-- PROJECT: VUE/flask remote game control app
-    - TODO: micropython keyboard control, init hello world
-    - TODO: simplest possible UI in Vue
-    - TODO: remote script execution
-    - TODO: keyboard/mouse listener
-    - TODO: macro recorder into source code
-    - TODO: pick simplest quest and automate it
-    - TODO: implement some simple algorithm for fun
 
 ### [[my_awesome_software_list|Software]]
 
@@ -89,6 +76,7 @@ You can't learn all very quickly, this is marathon, not a sprint. Strategy:
 
 - WARN: Киселёв Алгебра, в 2-х частях
     - TODO: поиск практически задач
+- TODO: Книга: No Bullshit Guide to Linear Algebra
 - TODO: [BetterExplained.com](https://betterexplained.com/) — интуитивное понимание концепций.
 - TODO: [[Math_is_fun_community-Math_is_fun]]
 - TODO: [100 уроков Математики (А. Савватеев)](https://www.youtube.com/playlist?list=PLqBfxn8OBMGrsA_YynaQWqHKhL7kEvL4X)
@@ -145,7 +133,7 @@ You can't learn all very quickly, this is marathon, not a sprint. Strategy:
 
 - TODO: **Message Brokers:**
     - WARN: **RabbitMQ:** Exchange types, queues, dead letter exchanges. Library `aio-pika`.
-    - TODO: **Kafka:** Basics, partitions, consumer groups. Book *Kafka Streams in Action*.
+    - TODO: **Kafka:** Basics, partitions, consumer groups. Книга: *Kafka Streams in Action*.
 - TODO: **FastStream:** Modern framework for Kafka/RabbitMQ (must learn for Python in 2025).
 - WARN: **Task Queues:** Celery (classic), AIO-pika.
 - WARN: boot.dev pub/sub course
@@ -235,6 +223,9 @@ You can't learn all very quickly, this is marathon, not a sprint. Strategy:
 
 ## 7. Lists & collection of courses
 
+- [Computer Science Roadmap](https://roadmap.sh/computer-science)
+- [Frontend Developer Roadmap](https://roadmap.sh/frontend)
+- [Backend Developer Roadmap](https://roadmap.sh/backend)
 - [Boot.dev](https://boot.dev/)
 - [Техносфера - Мир программирования](https://www.technosphera.ru/lib/8)
 - [Pragmatic Bookshelf](https://pragprog.com/)
