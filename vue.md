@@ -2,6 +2,7 @@
 date: 2026-01-05T09:57+03:00
 tags:
   - blog
+  - programming/vue
 ---
 
 # Vue.js - The Progressive JavaScript Framework
