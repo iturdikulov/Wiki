@@ -1,9 +1,6 @@
-:root {
-    font-variant-ligatures: none;
-}
-
-body {
-  --file-line-width: 960px;
+.markdown-source-view .cm-vimMode > div{
+  max-width: 960px;
+  margin: 0;
 }
 
 /* Custom flashcard separator */
