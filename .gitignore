@@ -19,8 +19,10 @@ Josh.md
 
 # Inbox files
 TODO*.md
-books/
-literature/
+QuickNote*.*
+*_diary.md
+refs/
+library/
 articles/
 
 # Drafts
